@@ -1,0 +1,59 @@
+.body {
+  font-size: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+#zwischenstand {
+  font-size: 1.5rem;
+  text-align: right;
+  height: 2rem;
+  color: rgb(100, 98, 101);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#eingabe {
+  font-size: 2rem;
+  text-align: right;
+  height: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 98, 101);
+}
+.grid-container {
+  display: grid;
+
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  grid-template-columns: auto auto auto auto;
+  gap: 0.2rem;
+  color: rgb(100, 98, 101);
+}
+.grid-item {
+  font-size: 2rem;
+  height: 5rem;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(218, 210, 199);
+  color: rgb(100, 98, 101);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#list {
+  width: 15rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-left: solid 0.5px #eeeded;
+  height: 100vh;
+  text-align: right;
+  overflow-y: auto;
+  background-color: rgb(218, 210, 199);
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(239, 235, 230);
+  color: rgb(100, 98, 101);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.calculator {
+  flex: 1;
+  padding-right: 1rem;
+}
